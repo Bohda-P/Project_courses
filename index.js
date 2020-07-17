@@ -30,6 +30,9 @@ app.set('views','views')
 
 const PORT = process.env.PORT || 3000
 
+const password = 'KEi5lu7yS62tisXb'
+const url = 'mongodb+srv://Bohdan:KEi5lu7yS62tisXb@cluster0.vildr.mongodb.net/<dbname>?retryWrites=true&w=majority'
+
  app.listen(PORT, ()=> {
      console.log(`Server was started on port ${PORT}`)
  })
